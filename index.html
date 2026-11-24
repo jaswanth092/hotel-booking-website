@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaPulse Smart City | Digital Civic Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Top Emergency Alert Strip -->
+    <div class="emergency-strip">
+        <div class="container strip-inner">
+            <span class="pulse-dot"></span>
+            <strong>24/7 Unified Emergency Helpline: 112</strong>
+            <span class="divider">|</span>
+            <span>Ambulance: 108</span>
+            <span class="divider">|</span>
+            <span>Fire & Rescue: 101</span>
+            <span class="divider">|</span>
+            <a href="#emergency">View All Emergency Contacts →</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">◈</span> NOVAPULSE <span>CITY</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#stats">City Stats</a>
+                <a href="#transport">Transport</a>
+                <a href="#healthcare">Healthcare</a>
+                <a href="#education">Education</a>
+                <a href="#services">Services</a>
+                <a href="#locations">Locations</a>
+                <a href="#emergency" class="btn-emergency-nav">Emergency</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge-pill">Connected • Sustainable • Citizen-First</span>
+                <h1>Welcome to NovaPulse Smart City Portal</h1>
+                <p>Real-time urban infrastructure, autonomous transit tracking, digital public services, healthcare networks, and emergency response—unified in one intelligent civic hub.</p>
+                <div class="hero-actions">
+                    <a href="#services" class="btn btn-primary">Access e-Services</a>
+                    <a href="#transport" class="btn btn-outline">Live Transit Status</a>
+                </div>
+            </div>
+            <div class="hero-panel">
+                <div class="panel-header">
+                    <span>Live Urban Telemetry</span>
+                    <span class="status-live">● OPERATIONAL</span>
+                </div>
+                <div class="telemetry-grid">
+                    <div class="telemetry-item">
+                        <span class="t-label">Air Quality Index</span>
+                        <span class="t-value good">34 AQI</span>
+                        <span class="t-sub">Good • Clean Air</span>
+                    </div>
+                    <div class="telemetry-item">
+                        <span class="t-label">Grid Renewable Share</span>
+                        <span class="t-value">78.4%</span>
+                        <span class="t-sub">Solar & Wind Active</span>
+                    </div>
+                    <div class="telemetry-item">
+                        <span class="t-label">Metro On-Time Rate</span>
+                        <span class="t-value">99.2%</span>
+                        <span class="t-sub">All 4 Lines Running</span>
+                    </div>
+                    <div class="telemetry-item">
+                        <span class="t-label">Public Wi-Fi Hotspots</span>
+                        <span class="t-value">1,420</span>
+                        <span class="t-sub">5G Civic Mesh Online</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- City Statistics Section -->
+    <section id="stats" class="section stats-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Civic Metrics & Open Data</span>
+                <h2>City Statistics at a Glance</h2>
+                <p>Key demographic, sustainability, and digital governance indicators updated across municipal departments.</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-top">
+                        <span class="stat-icon">👥</span>
+                        <span class="stat-trend positive">+2.4% YoY</span>
+                    </div>
+                    <h3>1.85 Million</h3>
+                    <p class="stat-title">Metropolitan Population</p>
+                    <span class="stat-desc">Across 12 smart administrative districts</span>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-top">
+                        <span class="stat-icon">⚡</span>
+                        <span class="stat-trend positive">Target: 85%</span>
+                    </div>
+                    <h3>78.4%</h3>
+                    <p class="stat-title">Clean Energy Adoption</p>
+                    <span class="stat-desc">Smart microgrids & rooftop solar network</span>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-top">
+                        <span class="stat-icon">🌳</span>
+                        <span class="stat-trend positive">42 m² / capita</span>
+                    </div>
+                    <h3>36.5%</h3>
+                    <p class="stat-title">Urban Green Cover</p>
+                    <span class="stat-desc">84 eco-parks & vertical forest corridors</span>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-top">
+                        <span class="stat-icon">📱</span>
+                        <span class="stat-trend positive">96% Digital</span>
+                    </div>
+                    <h3>140+</h3>
+                    <p class="stat-title">Paperless Citizen Services</p>
+                    <span class="stat-desc">Average resolution time under 24 hours</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transportation Section -->
+    <section id="transport" class="section bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Smart Mobility</span>
+                <h2>Integrated Transportation Network</h2>
+                <p>Zero-emission transit corridors, AI-synchronized traffic signals, and last-mile micro-mobility hubs.</p>
+            </div>
+
+            <div class="cards-grid three-col">
+                <article class="info-card">
+                    <div class="card-badge badge-blue">High-Speed Rail</div>
+                    <h3>Metro Rapid Transit</h3>
+                    <p>4 automated driverless lines spanning 118 km with 3-minute peak frequency and contactless tap-to-ride.</p>
+                    <ul class="detail-list">
+                        <li><strong>Blue Line:</strong> Airport ↔ Central Tech Park (Active)</li>
+                        <li><strong>Emerald Line:</strong> Harbor District ↔ North Campus (Active)</li>
+                        <li><strong>Operating Hours:</strong> 05:00 AM – 01:00 AM</li>
+                    </ul>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-badge badge-green">Zero Emission</div>
+                    <h3>Electric Bus & Shuttle Fleet</h3>
+                    <p>650+ GPS-tracked electric buses equipped with real-time passenger occupancy sensors and free Wi-Fi.</p>
+                    <ul class="detail-list">
+                        <li><strong>Express Corridors:</strong> 28 Dedicated Bus Lanes</li>
+                        <li><strong>Smart Shelters:</strong> Live ETA displays & solar charging</li>
+                        <li><strong>Frequency:</strong> Every 8–12 minutes</li>
+                    </ul>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-badge badge-amber">Micro-Mobility & EV</div>
+                    <h3>Bike Share & EV Charging</h3>
+                    <p>Seamless first-and-last-mile connectivity with 4,500 docked e-bikes and ultra-fast EV charging plazas.</p>
+                    <ul class="detail-list">
+                        <li><strong>Cycle Lanes:</strong> 210 km protected greenways</li>
+                        <li><strong>EV Superchargers:</strong> 320 public stations citywide</li>
+                        <li><strong>Smart Parking:</strong> Live slot availability via Civic App</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hospitals & Healthcare Section -->
+    <section id="healthcare" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Connected Health</span>
+                <h2>Hospitals & Smart Healthcare</h2>
+                <p>24/7 multi-specialty medical centers integrated with unified digital health records and rapid trauma response.</p>
+            </div>
+
+            <div class="cards-grid three-col">
+                <article class="info-card">
+                    <div class="card-header-row">
+                        <span class="status-tag open">24/7 Trauma & ICU</span>
+                        <span class="beds-tag">42 Beds Available</span>
+                    </div>
+                    <h3>NovaPulse Central General Hospital</h3>
+                    <p>Flagship quaternary care hospital featuring robotic surgery, cardiac care, and helipad air-ambulance access.</p>
+                    <div class="meta-footer">
+                        <span>📍 Sector 4, Civic Center</span>
+                        <span>📞 +1 (800) 555-2100</span>
+                    </div>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-header-row">
+                        <span class="status-tag open">24/7 Emergency</span>
+                        <span class="beds-tag">28 Beds Available</span>
+                    </div>
+                    <h3>St. Jude Children's & Maternity Institute</h3>
+                    <p>Specialized pediatric, neonatal ICU, and maternal wellness center with tele-pediatric consultations.</p>
+                    <div class="meta-footer">
+                        <span>📍 Westgate Garden District</span>
+                        <span>📞 +1 (800) 555-2240</span>
+                    </div>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-header-row">
+                        <span class="status-tag open">Telehealth & Diagnostics</span>
+                        <span class="beds-tag">19 Beds Available</span>
+                    </div>
+                    <h3>Harborview Specialty & Oncology Clinic</h3>
+                    <p>AI-assisted diagnostic imaging, outpatient care, and 18 neighborhood smart health kiosks across wards.</p>
+                    <div class="meta-footer">
+                        <span>📍 Marina Boulevard, Pier 7</span>
+                        <span>📞 +1 (800) 555-2390</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Knowledge & Innovation</span>
+                <h2>Education & Research Ecosystem</h2>
+                <p>STEM-focused public schools, technical universities, and digital community libraries empowering lifelong learning.</p>
+            </div>
+
+            <div class="cards-grid three-col">
+                <article class="info-card">
+                    <div class="card-badge badge-purple">Higher Education</div>
+                    <h3>NovaPulse Institute of Technology</h3>
+                    <p>Leading public research university specializing in AI, clean energy engineering, biotechnology, and urban robotics.</p>
+                    <ul class="detail-list">
+                        <li><strong>Enrollment:</strong> 24,000+ Students</li>
+                        <li><strong>Innovation Labs:</strong> 18 Open Civic R&D Centers</li>
+                    </ul>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-badge badge-blue">K–12 Smart Schools</div>
+                    <h3>64 Digital Public Academies</h3>
+                    <p>Smart classrooms equipped with interactive STEM labs, coding curricula, solar-powered campuses, and safe transit.</p>
+                    <ul class="detail-list">
+                        <li><strong>Literacy Rate:</strong> 99.4% Citywide</li>
+                        <li><strong>Student-Teacher Ratio:</strong> 16:1</li>
+                    </ul>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-badge badge-green">Public Learning</div>
+                    <h3>Central Digital Library & Maker Hubs</h3>
+                    <p>24/7 co-working study pods, 3D printing workshops, digital archives, and free skill-certification bootcamps.</p>
+                    <ul class="detail-list">
+                        <li><strong>Branches:</strong> 14 Neighborhood Hubs</li>
+                        <li><strong>Digital Catalog:</strong> 1.2M e-Books & Journals</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Public Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">e-Governance</span>
+                <h2>Digital Public Services</h2>
+                <p>Instant online access to municipal utilities, permits, waste management, and citizen grievance redressal.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-box">
+                    <div class="service-icon">💧</div>
+                    <h3>Smart Water & Utilities</h3>
+                    <p>Monitor hourly household water/power usage, pay bills online, and report pipeline leaks automatically.</p>
+                    <a href="#services" class="service-link">Pay & Monitor Bills →</a>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">♻️</div>
+                    <h3>IoT Waste Management</h3>
+                    <p>Sensor-equipped smart bins optimize collection routes with 92% recycling recovery across residential zones.</p>
+                    <a href="#services" class="service-link">View Pickup Schedule →</a>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">📄</div>
+                    <h3>Civil Registry & Permits</h3>
+                    <p>Apply for birth/marriage certificates, business licenses, and digital building permits with blockchain verification.</p>
+                    <a href="#services" class="service-link">Apply Online →</a>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">🛠️</div>
+                    <h3>311 Civic Issue Tracker</h3>
+                    <p>Geo-tag potholes, broken streetlights, or sanitation requests and track municipal repair crews in real time.</p>
+                    <a href="#services" class="service-link">Report an Issue →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Information Section -->
+    <section id="emergency" class="section emergency-section">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Rapid Response Command</span>
+                <h2>Emergency Information & Helplines</h2>
+                <p>Integrated GPS-dispatched emergency services with an average citywide response time of under 6 minutes.</p>
+            </div>
+
+            <div class="emergency-grid">
+                <div class="emergency-card">
+                    <span class="em-code">112</span>
+                    <h3>National Unified Emergency</h3>
+                    <p>Single toll-free number for Police, Fire, Medical, and Disaster Management with automatic caller location.</p>
+                </div>
+
+                <div class="emergency-card">
+                    <span class="em-code">108</span>
+                    <h3>Smart Ambulance & Trauma</h3>
+                    <p>ALS-equipped ambulances synced with green-corridor traffic signals for uninterrupted hospital transit.</p>
+                </div>
+
+                <div class="emergency-card">
+                    <span class="em-code">101</span>
+                    <h3>Fire & Hazardous Rescue</h3>
+                    <p>16 automated fire stations with thermal drone reconnaissance and rapid structural rescue units.</p>
+                </div>
+
+                <div class="emergency-card">
+                    <span class="em-code">1930</span>
+                    <h3>Cyber Crime & Women's Safety</h3>
+                    <p>24/7 cyber-fraud helpline, SOS smart-pole panic buttons across streets, and women's safety patrol.</p>
+                </div>
+            </div>
+
+            <div class="shelter-banner">
+                <div>
+                    <h4>Disaster Preparedness & Evacuation Shelters</h4>
+                    <p>24 seismic-resilient community shelters stocked with backup power, medical kits, and satellite communications.</p>
+                </div>
+                <a href="#locations" class="btn btn-light">View Safe Zones</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Locations Section -->
+    <section id="locations" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">City Directory</span>
+                <h2>Important Civic Locations</h2>
+                <p>Key administrative hubs, innovation zones, transit terminals, and recreational landmarks across NovaPulse.</p>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="locations-table">
+                    <thead>
+                        <tr>
+                            <th>Landmark / Facility</th>
+                            <th>Category</th>
+                            <th>District & Address</th>
+                            <th>Hours</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>City Hall & Integrated Command Center</strong></td>
+                            <td>Administration</td>
+                            <td>1 Civic Plaza, Central District</td>
+                            <td>08:00 AM – 06:00 PM (Ops 24/7)</td>
+                            <td><span class="pill-active">Open</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>NovaPulse Grand Central Multimodal Hub</strong></td>
+                            <td>Transportation</td>
+                            <td>400 Transit Way, Midtown</td>
+                            <td>04:30 AM – 01:30 AM</td>
+                            <td><span class="pill-active">Active</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Horizon Innovation & Startup District</strong></td>
+                            <td>Tech & Business</td>
+                            <td>88 Silicon Avenue, East Tech Zone</td>
+                            <td>24/7 Campus Access</td>
+                            <td><span class="pill-active">Open</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Botanical Eco-Park & Solar Conservatory</strong></td>
+                            <td>Recreation & Ecology</td>
+                            <td>15 Greenway Blvd, North Valley</td>
+                            <td>06:00 AM – 10:00 PM</td>
+                            <td><span class="pill-active">Open</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Central Convention & Cultural Arena</strong></td>
+                            <td>Culture & Events</td>
+                            <td>210 Waterfront Promenade, Harbor</td>
+                            <td>09:00 AM – 11:00 PM</td>
+                            <td><span class="pill-active">Open</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo"><span class="logo-icon">◈</span> NOVAPULSE <span>CITY</span></a>
+                <p>Municipal Corporation of NovaPulse<br>1 Civic Plaza, Central District<br>Helpdesk: 311 | support@novapulse.gov</p>
+            </div>
+            <div class="footer-links">
+                <h4>Civic Portals</h4>
+                <ul>
+                    <li><a href="#stats">Open Data Dashboard</a></li>
+                    <li><a href="#transport">Smart Mobility Map</a></li>
+                    <li><a href="#services">e-Governance Services</a></li>
+                    <li><a href="#healthcare">Hospital Bed Tracker</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Citizen Support</h4>
+                <ul>
+                    <li><a href="#emergency">Emergency Directory</a></li>
+                    <li><a href="#education">Public Schools & Libraries</a></li>
+                    <li><a href="#locations">District Offices</a></li>
+                    <li><a href="#services">Grievance Redressal</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NovaPulse Smart City Authority. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
